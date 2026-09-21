@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "no-internet_gorizontal.jpeg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
