@@ -10,7 +10,7 @@
 		EE01AF0100010001000A0001 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = EE01AF0100010001000A0011 /* AppsFlyerLib */; };
 		EE01AF0100010001000A0002 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = EE01AF0100010001000A0012 /* FirebaseCore */; };
 		EE01AF0100010001000A0003 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = EE01AF0100010001000A0013 /* FirebaseMessaging */; };
-		FO01NSE0100010001000A0004 /* FrameOnceNotificationService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FO01NSE0100010001000A0020 /* FrameOnceNotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FO01NSE0100010001000A0004 /* ObjectHuntNotificationService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FO01NSE0100010001000A0020 /* ObjectHuntNotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -19,7 +19,7 @@
 			containerPortal = DDE11C90305DA15000DF6212 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FO01NSE0100010001000A0022;
-			remoteInfo = FrameOnceNotificationService;
+			remoteInfo = ObjectHuntNotificationService;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -30,7 +30,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				FO01NSE0100010001000A0004 /* FrameOnceNotificationService.appex in Embed Foundation Extensions */,
+				FO01NSE0100010001000A0004 /* ObjectHuntNotificationService.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		DDE11C98305DA15000DF6212 /* Object Hunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Object Hunt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FO01NSE0100010001000A0020 /* FrameOnceNotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FrameOnceNotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FO01NSE0100010001000A0020 /* ObjectHuntNotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ObjectHuntNotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -51,12 +51,12 @@
 			);
 			target = DDE11C97305DA15000DF6212 /* Object Hunt */;
 		};
-		FO01NSE0100010001000A0024 /* Exceptions for "FrameOnceNotificationService" folder in "FrameOnceNotificationService" target */ = {
+		FO01NSE0100010001000A0024 /* Exceptions for "ObjectHuntNotificationService" folder in "ObjectHuntNotificationService" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = FO01NSE0100010001000A0022 /* FrameOnceNotificationService */;
+			target = FO01NSE0100010001000A0022 /* ObjectHuntNotificationService */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -69,12 +69,12 @@
 			path = "Object Hunt";
 			sourceTree = "<group>";
 		};
-		FO01NSE0100010001000A0025 /* FrameOnceNotificationService */ = {
+		FO01NSE0100010001000A0025 /* ObjectHuntNotificationService */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				FO01NSE0100010001000A0024 /* Exceptions for "FrameOnceNotificationService" folder in "FrameOnceNotificationService" target */,
+				FO01NSE0100010001000A0024 /* Exceptions for "ObjectHuntNotificationService" folder in "ObjectHuntNotificationService" target */,
 			);
-			path = FrameOnceNotificationService;
+			path = ObjectHuntNotificationService;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -102,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				DDE11C9A305DA15000DF6212 /* Object Hunt */,
-				FO01NSE0100010001000A0025 /* FrameOnceNotificationService */,
+				FO01NSE0100010001000A0025 /* ObjectHuntNotificationService */,
 				DDE11C99305DA15000DF6212 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,7 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				DDE11C98305DA15000DF6212 /* Object Hunt.app */,
-				FO01NSE0100010001000A0020 /* FrameOnceNotificationService.appex */,
+				FO01NSE0100010001000A0020 /* ObjectHuntNotificationService.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,9 +146,9 @@
 			productReference = DDE11C98305DA15000DF6212 /* Object Hunt.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FO01NSE0100010001000A0022 /* FrameOnceNotificationService */ = {
+		FO01NSE0100010001000A0022 /* ObjectHuntNotificationService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FO01NSE0100010001000A0028 /* Build configuration list for PBXNativeTarget "FrameOnceNotificationService" */;
+			buildConfigurationList = FO01NSE0100010001000A0028 /* Build configuration list for PBXNativeTarget "ObjectHuntNotificationService" */;
 			buildPhases = (
 				FO01NSE0100010001000A0029 /* Sources */,
 				FO01NSE0100010001000A0026 /* Frameworks */,
@@ -159,13 +159,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FO01NSE0100010001000A0025 /* FrameOnceNotificationService */,
+				FO01NSE0100010001000A0025 /* ObjectHuntNotificationService */,
 			);
-			name = FrameOnceNotificationService;
+			name = ObjectHuntNotificationService;
 			packageProductDependencies = (
 			);
-			productName = FrameOnceNotificationService;
-			productReference = FO01NSE0100010001000A0020 /* FrameOnceNotificationService.appex */;
+			productName = ObjectHuntNotificationService;
+			productReference = FO01NSE0100010001000A0020 /* ObjectHuntNotificationService.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +205,7 @@
 			projectRoot = "";
 			targets = (
 				DDE11C97305DA15000DF6212 /* Object Hunt */,
-				FO01NSE0100010001000A0022 /* FrameOnceNotificationService */,
+				FO01NSE0100010001000A0022 /* ObjectHuntNotificationService */,
 			);
 		};
 /* End PBXProject section */
@@ -244,7 +244,7 @@
 /* Begin PBXTargetDependency section */
 		FO01NSE0100010001000A0027 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FO01NSE0100010001000A0022 /* FrameOnceNotificationService */;
+			target = FO01NSE0100010001000A0022 /* ObjectHuntNotificationService */;
 			targetProxy = FO01NSE0100010001000A0021 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -456,7 +456,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FrameOnceNotificationService/Info.plist;
+				INFOPLIST_FILE = ObjectHuntNotificationService/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ObjectHunt;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -486,7 +486,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FrameOnceNotificationService/Info.plist;
+				INFOPLIST_FILE = ObjectHuntNotificationService/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ObjectHunt;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -528,7 +528,7 @@
 			);
 			defaultConfigurationName = Release;
 		};
-		FO01NSE0100010001000A0028 /* Build configuration list for PBXNativeTarget "FrameOnceNotificationService" */ = {
+		FO01NSE0100010001000A0028 /* Build configuration list for PBXNativeTarget "ObjectHuntNotificationService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FO01NSE0100010001000A002B /* Debug */,
