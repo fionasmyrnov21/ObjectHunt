@@ -152,6 +152,8 @@
 			);
 			buildRules = (
 			);
+			dependencies = (
+            );
 			fileSystemSynchronizedGroups = (
 				FO01NSE0100010001000A0025 /* ObjectHuntNotificationService */,
 			);
